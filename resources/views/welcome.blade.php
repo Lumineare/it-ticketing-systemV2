@@ -121,9 +121,9 @@
 <div class="page-header px-2 border-bottom-0 pb-0">
     <!-- Di sidebar layout, hero header bisa sedikit dikecilkan ukurannya jadi left-aligned -->
     <div class="text-start">
-        <h1 class="display-5 fw-bold text-dark mb-3">Pusat Bantuan IT</h1>
+        <h1 class="display-5 fw-bold text-dark mb-3">Pusat SI MRT</h1>
         <p class="lead text-secondary mb-4" style="max-width: 700px;">
-            Sistem layanan pelaporan kendala IT terpadu. Laporkan masalah perangkat keras, jaringan, atau sistem perangkat lunak Anda untuk mendapatkan resolusi yang cepat.
+            SI MRT - IT (System information Maintenance Request And Trouble IT)
         </p>
         <a href="{{ route('ticket.create') }}" class="btn btn-primary btn-lg shadow-sm rounded-pill px-4">
             <i class="bi bi-plus-circle me-1"></i> Buat Laporan Baru
