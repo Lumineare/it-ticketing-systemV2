@@ -53,5 +53,9 @@ Route::middleware(['auth', 'role:admin,teknisi'])->group(function () {
     Route::get('/admin/users/create', [\App\Http\Controllers\AdminUserController::class, 'create'])->name('admin.users.create');
     Route::post('/admin/users/store', [\App\Http\Controllers\AdminUserController::class, 'store'])->name('admin.users.store');
     Route::delete('/admin/users/{id}', [\App\Http\Controllers\AdminUserController::class, 'destroy'])->name('admin.users.destroy');
+
+    // ----------- Inventaris Peralatan IT -----------
+    Route::resource('/admin/assets', \App\Http\Controllers\Admin\AssetController::class)
+        ->names('admin.assets');
 });
 

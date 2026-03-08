@@ -68,6 +68,11 @@
               <i class="bi bi-file-earmark-bar-graph"></i> Reports
             </a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link {{ request()->is('admin/assets*') ? 'active' : '' }}" href="{{ route('admin.assets.index') }}">
+              <i class="bi bi-pc-display-horizontal"></i> Inventaris IT
+            </a>
+          </li>
           @endif
           <li class="nav-item mt-2">
             <a class="nav-link text-primary border-top pt-3" href="/">
